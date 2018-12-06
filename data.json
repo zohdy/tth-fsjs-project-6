@@ -1,0 +1,69 @@
+{
+    "projects": [
+      {
+        "id": "1",
+        "project_name": "A Random Quote Generator",
+        "description": "An app that displays random famous quotes each time a button is clicked. Quotes from famous historical figures, artists, scientists, celebrities, etc..",
+        "technologies": ["Vanilla JS", "HTML", "CSS"],
+        "live_link": "https://zohdy.github.io/tth-fsjs-project-1/",
+        "github_link": "https://github.com/zohdy/tth-fsjs-project-1",
+        "image_urls": [
+          "images/project1-l.png",
+          "images/project1-1.png",
+          "images/project1-2.png"
+        ]
+      },
+      {
+        "id": "2",
+        "project_name": "List Pagination and Filtering",
+        "description": "Enhance the usability of a web page that is displaying way too much information all at once. Long lists don't make for a good user experience on a web page. To make it easier for the user to find information \"pagination\" is added.",
+        "technologies": ["ES 2015", "Vanilla JS", "DOM Manipulation", "CSS"],
+        "live_link": "https://zohdy.github.io/tth-fsjs-project-2/",
+        "github_link": "https://github.com/zohdy/tth-fsjs-project-2",
+        "image_urls": [
+          "images/project2-l.png",
+          "images/project2-1.png",
+          "images/project2-2.png"
+        ]
+      },
+      {
+        "id": "3",
+        "project_name": "Interactive Form",
+        "description": "In this project, you'll use JavaScript to enhance an interactive registration form for a fictional conference called \"FullStack Conf.\"",
+        "technologies": ["JQuery", "CSS", "HTML"],
+        "live_link": "https://zohdy.github.io/tth-fsjs-project-3/",
+        "github_link": "https://github.com/zohdy/tth-fsjs-project-3",
+        "image_urls": [
+          "images/project3-l.png",
+          "images/project3-1.png",
+          "images/project3-2.png"
+        ]
+      },
+      {
+        "id": "4",
+        "project_name": "OOP Game Show App",
+        "description": "A browser-based, word guessing game: \"Phrase Hunter.\" Select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard.",
+        "technologies": ["OOP JS"],
+        "live_link": "https://zohdy.github.io/tth-fsjs-project-4/",
+        "github_link": "https://github.com/zohdy/tth-fsjs-project-4",
+        "image_urls": [
+          "images/project4-l.png",
+          "images/project4-1.png",
+          "images/project4-2.png"
+        ]
+      },
+      {
+        "id": "5",
+        "project_name": "Public API Request",
+        "description": "A web app for a fictional company called Awesome Startup. Using the Random User Generator API (https://randomuser.me/) to grab information for 12 random “employees,” and use that data to build a prototype for an Awesome Startup employee directory.",
+        "technologies": ["Javascript", "HTTP"],
+        "live_link": " https://zohdy.github.io/tth-fsjs-project-5/",
+        "github_link": "https://github.com/zohdy/tth-fsjs-project-5",
+        "image_urls": [
+          "images/project5-l.png",
+          "images/project5-1.png",
+          "images/project5-2.png"
+        ]
+      }
+    ]
+}

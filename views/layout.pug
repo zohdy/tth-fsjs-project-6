@@ -14,26 +14,24 @@ html(class="no-js" lang="en" dir="ltr")
         block sidebar
           br
           .cell.shrink
-            img.thumbnail(src='https://placehold.it/550x350')
+            img.thumbnail(src='/static/images/profile-picture.jpg')
           .cell.auto
+            h5 Patrick Peter Zohdy
 
-            //- Add your name here.
-            h5 Name
-
-            //- Add text here to describe who you are, what you do, and why you are so aweome.
             p.text-light
-              | Descritption
+              | I'm Peter, based in Copenhagen, Denmark. I recently finished a BSc in Computer Science, now specializing in web development.
+              |
+              | I'm obsessed with small details and extremely persistent when it comes to solving strange problems, especially late at night.
+              |
+              | When I'm not writing code I'm probably working on music-related stuff or out spinning records.
 
-            //- Add about page route to the href below. 
-            a(href='') Learn More →
+            a(href='/about') Learn More →
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large
         .title-bar-left
           button.menu-icon(type='button', data-toggle='my-info')
-
-          //- Add your name here.  This is for the mobile screen sized version.
-          span.title-bar-title Name
+          span.title-bar-title Patrick Peter Zohdy
       block content
 
       
