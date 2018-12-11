@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    article
+        div.portfolio-intro
+            h2= `${error.message} - Status: ${error.status}`
+            p=`${error.stack}`
+            a(href='/') ← Go Home

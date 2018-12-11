@@ -16,8 +16,9 @@ block content
           each skill in project.technologies
             li=`${skill}`
 
-        a.button.expanded(href=`${project.live_link}`) Live Demo
-        a.button.expanded(href=`${project.github_link}`) GitHub Repo
+        a.button.expanded(href=`${project.live_link}`, target="_blank") Live Demo
+        a.button.expanded(href=`${project.github_link}`, target="_blank") GitHub Repo
 
-    each url in imgUrls
-      img.image(src=`/static/${url}`)
+    each url, index in project.image_urls
+      if index >= 1
+        img.image(src=`/static/${url}`)

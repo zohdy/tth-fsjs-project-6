@@ -69,7 +69,7 @@ a:hover{
   }
 
   .portfolio-me a{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     color: #555;
     font-size: 13px;
@@ -89,7 +89,7 @@ a:hover{
 }
 
  .portfolio-breadcrumb a{
-   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-family: 'Open Sans', sans-serif;
    font-weight: 600;
    font-size: 13px;
    letter-spacing: 2.5px;
@@ -148,3 +148,32 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+
+/* CUSTOM CSS STYLES */
+
+body {
+  background-color: #e8eaf6;
+}
+
+p, .lead {
+  color: rgba(0,0,0,.8);
+  font-family: 'Open Sans', sans-serif;
+
+}
+.off-canvas {
+  background-color: #1a237e;
+}
+.off-canvas .text-light {
+  color: rgba(255, 255, 255, .8);
+}
+
+.off-canvas a {
+  color: white;
+}
+
+.thumbnail, .image {
+  -webkit-box-shadow: 0 0 17px 0 rgba(0,0,0,0.41);
+  -moz-box-shadow: 0 0 17px 0 rgba(0,0,0,0.41);
+  box-shadow: 0 0 17px 0 rgba(0,0,0,0.41);
+}
+
